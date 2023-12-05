@@ -1,7 +1,14 @@
+import "./navbar.css"
+
 function Navbar(){
     return(
-        <div>
-            <h1>Este es el header</h1>
-        </div>
+    <header className="pageHead">
+        <nav className="headerNav">
+            <h1>Veterinary Name</h1>
+            <a href="">open</a>
+            <button className="navButton">Abrir menu</button>
+        </nav>
+    </header>
     )
 }
+export default Navbar

@@ -1,0 +1,35 @@
+.pageHead {
+    width: 100%;
+    background-color: #f3a930;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 90;
+    transition: .2s ease-in-out;
+    height: 95px;
+}
+.headerNav{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 3rem;    
+}
+.headerNav a {
+    cursor: pointer;
+    vertical-align: center;
+    text-align: center;
+    margin-left: auto;
+}
+.navButton{
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    background: transparent;
+    padding: 0;
+    z-index: 20;
+    border: 2px solid #f3a930;
+    border-radius: 50%;
+    margin-left: 24px;
+    transition: .2s;
+}
